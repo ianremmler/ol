@@ -1,11 +1,11 @@
 setlocal textwidth=96 shiftwidth=2 tabstop=2 autoindent foldmethod=indent
 
-nnoremap <silent> <A-k> :<C-u>silent! move .-2<CR>
-nnoremap <silent> <A-j> :<C-u>silent! move .+1<CR>
-nnoremap <silent> <A-h> <<
-nnoremap <silent> <A-l> >>
+nnoremap <silent> <C-S-k> :<C-u>silent! move .-2<CR>
+nnoremap <silent> <C-S-j> :<C-u>silent! move .+1<CR>
+nnoremap <silent> <C-S-h> <<
+nnoremap <silent> <C-S-l> >>
 
-xnoremap <silent> <A-k> :<C-u>silent! '<,'>move '<-2<CR>gv
-xnoremap <silent> <A-j> :<C-u>silent! '<,'>move '>+1<CR>gv
-xnoremap <silent> <A-h> <gv
-xnoremap <silent> <A-l> >gv
+xnoremap <silent> <C-S-k> :<C-u>silent! '<,'>move '<-2<CR>gv
+xnoremap <silent> <C-S-j> :<C-u>silent! '<,'>move '>+1<CR>gv
+xnoremap <silent> <C-S-h> <gv
+xnoremap <silent> <C-S-l> >gv
